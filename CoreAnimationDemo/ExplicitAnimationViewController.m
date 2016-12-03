@@ -30,16 +30,16 @@
 }
 
 - (IBAction)clickBasicAnimation:(id)sender {
+    self.explicitLayer.backgroundColor = [UIColor yellowColor].CGColor;
     //创建基础动画，设置property为backgroundColor
     CABasicAnimation *basicAnimation = [CABasicAnimation animationWithKeyPath:@"backgroundColor"];
     //基础动画提供fromValue、byValue、toValue。用于指定开始值和目标值。
+    basicAnimation.fromValue = (__bridge id _Nullable)([UIColor redColor].CGColor);
     basicAnimation.toValue = (__bridge id _Nullable)([UIColor yellowColor].CGColor);
     //动画时间
     basicAnimation.duration = 5;
     //动画完成后是否移除效果
-    basicAnimation.removedOnCompletion = false;
-    //基础动画默认是没有设置任何属性的值，通过fillMode来解决此问题
-    basicAnimation.fillMode = kCAFillModeForwards;
+    basicAnimation.removedOnCompletion = true;
     //添加到图层上执行动画
     [self.explicitLayer addAnimation:basicAnimation forKey:nil];
 }
@@ -49,6 +49,7 @@
     keyframeAnimation.values = @[(__bridge id _Nullable)([UIColor yellowColor].CGColor),(__bridge id _Nullable)([UIColor blueColor].CGColor),(__bridge id _Nullable)([UIColor purpleColor].CGColor)];
     keyframeAnimation.duration = 5;
     keyframeAnimation.removedOnCompletion = false;
+    //动画默认是没有设置任何属性的值，通过fillMode来解决此问题
     keyframeAnimation.fillMode = kCAFillModeForwards;
     [self.explicitLayer addAnimation:keyframeAnimation forKey:nil];
 }
