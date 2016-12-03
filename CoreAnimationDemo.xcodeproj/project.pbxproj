@@ -16,6 +16,8 @@
 		6E5877F41DF1AA16001EF568 /* CoreAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5877F31DF1AA16001EF568 /* CoreAnimationDemoTests.m */; };
 		6E5877FF1DF1AA16001EF568 /* CoreAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5877FE1DF1AA16001EF568 /* CoreAnimationDemoUITests.m */; };
 		6EA0AD121DF2B98500181C99 /* CALayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0AD111DF2B98500181C99 /* CALayerViewController.m */; };
+		6EA0AD151DF2DB7A00181C99 /* ImplicitAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0AD141DF2DB7A00181C99 /* ImplicitAnimationViewController.m */; };
+		6EA0AD181DF30E8400181C99 /* ExplicitAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0AD171DF30E8400181C99 /* ExplicitAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		6E5878001DF1AA16001EF568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EA0AD101DF2B98500181C99 /* CALayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerViewController.h; sourceTree = "<group>"; };
 		6EA0AD111DF2B98500181C99 /* CALayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerViewController.m; sourceTree = "<group>"; };
+		6EA0AD131DF2DB7A00181C99 /* ImplicitAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImplicitAnimationViewController.h; sourceTree = "<group>"; };
+		6EA0AD141DF2DB7A00181C99 /* ImplicitAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimationViewController.m; sourceTree = "<group>"; };
+		6EA0AD161DF30E8400181C99 /* ExplicitAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplicitAnimationViewController.h; sourceTree = "<group>"; };
+		6EA0AD171DF30E8400181C99 /* ExplicitAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplicitAnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				6E5877E01DF1AA16001EF568 /* ViewController.m */,
 				6EA0AD101DF2B98500181C99 /* CALayerViewController.h */,
 				6EA0AD111DF2B98500181C99 /* CALayerViewController.m */,
+				6EA0AD131DF2DB7A00181C99 /* ImplicitAnimationViewController.h */,
+				6EA0AD141DF2DB7A00181C99 /* ImplicitAnimationViewController.m */,
+				6EA0AD161DF30E8400181C99 /* ExplicitAnimationViewController.h */,
+				6EA0AD171DF30E8400181C99 /* ExplicitAnimationViewController.m */,
 				6E5877E21DF1AA16001EF568 /* Main.storyboard */,
 				6E5877E51DF1AA16001EF568 /* Assets.xcassets */,
 				6E5877E71DF1AA16001EF568 /* LaunchScreen.storyboard */,
@@ -279,6 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E5877E11DF1AA16001EF568 /* ViewController.m in Sources */,
+				6EA0AD181DF30E8400181C99 /* ExplicitAnimationViewController.m in Sources */,
+				6EA0AD151DF2DB7A00181C99 /* ImplicitAnimationViewController.m in Sources */,
 				6E5877DE1DF1AA16001EF568 /* AppDelegate.m in Sources */,
 				6EA0AD121DF2B98500181C99 /* CALayerViewController.m in Sources */,
 				6E5877DB1DF1AA16001EF568 /* main.m in Sources */,
