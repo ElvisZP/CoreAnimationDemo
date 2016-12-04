@@ -18,6 +18,9 @@
 		6EA0AD121DF2B98500181C99 /* CALayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0AD111DF2B98500181C99 /* CALayerViewController.m */; };
 		6EA0AD151DF2DB7A00181C99 /* ImplicitAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0AD141DF2DB7A00181C99 /* ImplicitAnimationViewController.m */; };
 		6EA0AD181DF30E8400181C99 /* ExplicitAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0AD171DF30E8400181C99 /* ExplicitAnimationViewController.m */; };
+		6EA0AD1D1DF3C88600181C99 /* TransitioningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0AD1C1DF3C88600181C99 /* TransitioningViewController.m */; };
+		6EA0AD201DF3C98000181C99 /* ELAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0AD1F1DF3C98000181C99 /* ELAnimatedTransitioning.m */; };
+		6EA0AD231DF454F100181C99 /* ELAnimatedReverseTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0AD221DF454F100181C99 /* ELAnimatedReverseTransitioning.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,12 @@
 		6EA0AD141DF2DB7A00181C99 /* ImplicitAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimationViewController.m; sourceTree = "<group>"; };
 		6EA0AD161DF30E8400181C99 /* ExplicitAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplicitAnimationViewController.h; sourceTree = "<group>"; };
 		6EA0AD171DF30E8400181C99 /* ExplicitAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplicitAnimationViewController.m; sourceTree = "<group>"; };
+		6EA0AD1B1DF3C88600181C99 /* TransitioningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitioningViewController.h; sourceTree = "<group>"; };
+		6EA0AD1C1DF3C88600181C99 /* TransitioningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitioningViewController.m; sourceTree = "<group>"; };
+		6EA0AD1E1DF3C98000181C99 /* ELAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELAnimatedTransitioning.h; sourceTree = "<group>"; };
+		6EA0AD1F1DF3C98000181C99 /* ELAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELAnimatedTransitioning.m; sourceTree = "<group>"; };
+		6EA0AD211DF454F100181C99 /* ELAnimatedReverseTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELAnimatedReverseTransitioning.h; sourceTree = "<group>"; };
+		6EA0AD221DF454F100181C99 /* ELAnimatedReverseTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELAnimatedReverseTransitioning.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +129,12 @@
 				6EA0AD141DF2DB7A00181C99 /* ImplicitAnimationViewController.m */,
 				6EA0AD161DF30E8400181C99 /* ExplicitAnimationViewController.h */,
 				6EA0AD171DF30E8400181C99 /* ExplicitAnimationViewController.m */,
+				6EA0AD1B1DF3C88600181C99 /* TransitioningViewController.h */,
+				6EA0AD1C1DF3C88600181C99 /* TransitioningViewController.m */,
+				6EA0AD1E1DF3C98000181C99 /* ELAnimatedTransitioning.h */,
+				6EA0AD1F1DF3C98000181C99 /* ELAnimatedTransitioning.m */,
+				6EA0AD211DF454F100181C99 /* ELAnimatedReverseTransitioning.h */,
+				6EA0AD221DF454F100181C99 /* ELAnimatedReverseTransitioning.m */,
 				6E5877E21DF1AA16001EF568 /* Main.storyboard */,
 				6E5877E51DF1AA16001EF568 /* Assets.xcassets */,
 				6E5877E71DF1AA16001EF568 /* LaunchScreen.storyboard */,
@@ -289,11 +304,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E5877E11DF1AA16001EF568 /* ViewController.m in Sources */,
+				6EA0AD201DF3C98000181C99 /* ELAnimatedTransitioning.m in Sources */,
 				6EA0AD181DF30E8400181C99 /* ExplicitAnimationViewController.m in Sources */,
 				6EA0AD151DF2DB7A00181C99 /* ImplicitAnimationViewController.m in Sources */,
 				6E5877DE1DF1AA16001EF568 /* AppDelegate.m in Sources */,
 				6EA0AD121DF2B98500181C99 /* CALayerViewController.m in Sources */,
+				6EA0AD1D1DF3C88600181C99 /* TransitioningViewController.m in Sources */,
 				6E5877DB1DF1AA16001EF568 /* main.m in Sources */,
+				6EA0AD231DF454F100181C99 /* ELAnimatedReverseTransitioning.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

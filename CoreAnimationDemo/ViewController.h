@@ -10,6 +10,7 @@
 
 @interface ViewController : UITableViewController
 
+@property(nonatomic, assign) CGRect cellFrame;
 
 @end
 

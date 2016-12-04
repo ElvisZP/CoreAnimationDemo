@@ -96,6 +96,26 @@
                                             <segue destination="8Fd-8C-WUI" kind="show" id="Xuj-OI-Ekm"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="pEt-G9-9BN" style="IBUITableViewCellStyleDefault" id="Rl1-7w-bHa">
+                                        <rect key="frame" x="0.0" y="132" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rl1-7w-bHa" id="Ezk-75-yB6">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="转场动画push" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pEt-G9-9BN">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="dWD-FC-r43" kind="show" id="qh2-wu-3Pu"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -127,6 +147,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BDK-zO-tpg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="894" y="-37"/>
+        </scene>
+        <!--Transitioning View Controller-->
+        <scene sceneID="QiF-L0-83c">
+            <objects>
+                <viewController id="dWD-FC-r43" customClass="TransitioningViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5a0-2f-H2b"/>
+                        <viewControllerLayoutGuide type="bottom" id="HN5-jr-E24"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="r0H-0h-eAt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.66666666669999997" green="0.10980392160000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="31e-CN-oe6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="894" y="611"/>
         </scene>
         <!--Explicit Animation View Controller-->
         <scene sceneID="0Ht-h6-ofi">
@@ -178,7 +216,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XNu-RN-tek" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="894" y="649"/>
+            <point key="canvasLocation" x="2225" y="-37"/>
         </scene>
         <!--Implicit Animation View Controller-->
         <scene sceneID="sRz-6E-YKz">
